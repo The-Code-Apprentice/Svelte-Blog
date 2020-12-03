@@ -1,0 +1,64 @@
+html, body {
+	height:100%;
+}
+
+#sapper {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	margin: 0;
+	font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	color: #d7dce2;  /* //#32ae85 */
+	background: #171c28;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+img {
+	max-width: min(90%, 400px);
+	display: block;
+	margin: auto;
+}
+
+a {
+	color: #5ccfe6;/*#34ffeb;; */
+	background: #171c28;
+}
+
+code {
+	font-family: menlo, inconsolata, monospace;
+	font-size: calc(1em - 2px);
+	background: #2f3b54 !important; /* #2f3b54 rgb(38,50,56) */
+	padding: 0.2em 0.4em;
+	border-radius: 2px;
+}
+
+pre {
+	background: #2f3b54 !important; /* rgb(38,50,56) */
+	padding: 0.2em 0.4em;
+	border-radius: 2px;
+	color: #d7dce2;
+}
+
+
+@media (min-width: 400px) {
+
+}
+
+@media (max-width: 600px) {
+	body {
+		font-size: 13px;
+	}	
+}
